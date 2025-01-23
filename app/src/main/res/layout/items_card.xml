@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+    tools:context=".ItemAdapterRenter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Item Image -->
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/placeholder"
+            android:contentDescription="Item Image"
+            android:scaleType="centerCrop" />
+
+        <!-- Item Name -->
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textSize="18sp"
+            android:textColor="#0288D1"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Item Description -->
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Description"
+            android:textColor="#0288D1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Item Fee -->
+        <TextView
+            android:id="@+id/itemFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fee: $xx.xx"
+            android:textSize="14sp"
+            android:textColor="#0288D1"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Item Category -->
+        <TextView
+            android:id="@+id/itemCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category: Category Name"
+            android:textSize="14sp"
+            android:textColor="#0288D1"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

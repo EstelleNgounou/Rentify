@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Rentify1</string>
+    <string name="greeting_text">Welcome to Rentify!</string>
+
+    //for activity_register_renter.xml
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register_renter">REGISTER RENTER</string>
+    <string name="register_as_a_renter">REGISTER AS A RENTER</string>
+
+    //for activity_register_lessor.xml
+    <string name="register_lessor">REGISTER LESSOR</string>
+    <string name="register_as_a_lessor">REGISTER AS A LESSOR</string>
+
+    <string name="admin_login">ADMIN LOGIN</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="add_category">Add Category</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="view_users">View Users</string>
+    <string name="category_name_hint">Category Name</string>
+    <string name="category_description_hint">Category Description</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_description">Category Description</string>
+    <string name="welcomeText">Welcome, Admin!</string>
+    <string name="buttonListUsers">buttonListUsers</string>
+    <string name="item_name_hint">Item Name</string>
+    <string name="item_description_hint">Description</string>
+    <string name="rental_fee_hint">Rental Fee</string>
+    <string name="rental_time_period_hint">Rental Time Period</string>
+    <string name="add_item">Add Item</string>
+    <string name="update_item">Update Item</string>
+    <string name="rental_time_period">Rental Time Period</string>
+    <string name="rental_fee">Rental Fee</string>
+    <string name="description">Description</string>
+    <string name="item_name">Item Name</string>
+    <string name="search_items">Search Items</string>
+    <string name="search_for_items">Search for items</string>
+    <string name="search">Search</string>
+    <string name="_0_00">$0.00</string>
+    <string name="category">Category</string>
+    <string name="request">Request</string>
+
+</resources>

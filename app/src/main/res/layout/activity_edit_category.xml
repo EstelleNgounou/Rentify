@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E1F5FE"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/editCategoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Category"
+        android:textSize="22sp"
+        android:textColor="#0288D1"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextEditCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Category Name"
+        android:inputType="text"
+        android:background="#B3E5FC"
+        android:textColor="#0288D1"
+        android:textColorHint="#0288D1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEditCategoryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Category Description"
+        android:inputType="textMultiLine"
+        android:background="#B3E5FC"
+        android:textColor="#0288D1"
+        android:textColorHint="#0288D1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonListCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Category"
+        android:background="#0288D1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDeleteCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Category"
+        android:background="#0288D1"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

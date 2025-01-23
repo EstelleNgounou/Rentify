@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#EAF2F8">
+
+    <!-- Greeting Text -->
+    <TextView
+        android:id="@+id/greeting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting_text"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="32dp" />
+
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="username"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:textColor="#2C3E50"
+        android:background="#EAF2F8"
+        android:paddingStart="25dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="password"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColor="#2C3E50"
+        android:background="#EAF2F8"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/login_button"
+        android:textColor="#FFFFFF"
+        android:background="#3498DB"
+        android:layout_marginBottom="24dp"
+        />
+
+    <!-- Register Buttons -->
+    <Button
+        android:id="@+id/registerRenterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/register_as_a_renter"
+        android:textColor="#3498DB"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"/>
+
+    <Button
+        android:id="@+id/registerLessorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/register_as_a_lessor"
+        android:textColor="#3498DB"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E1F5FE"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Spinner
+            android:id="@+id/item_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Item Name"
+        android:padding="10dp"
+        android:textColor="#0288D1" />
+
+    <EditText
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Item Description"
+        android:padding="10dp"
+        android:textColor="#0288D1" />
+
+    <EditText
+        android:id="@+id/item_fee"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Fee"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textColor="#0288D1" />
+
+    <EditText
+        android:id="@+id/item_time_period"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Time Period"
+        android:padding="10dp"
+        android:textColor="#0288D1" />
+
+    <Button
+        android:id="@+id/btn_select_images"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Upload images"
+        android:background="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_add_item"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Add item"
+        android:background="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="10dp" />
+
+</LinearLayout>

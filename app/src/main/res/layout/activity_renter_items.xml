@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:padding="16dp">
+
+
+<EditText
+android:id="@+id/searchField"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Search items"
+android:padding="10dp"
+android:background="@drawable/search_field_bg"
+    android:textColor="#01579B"
+    android:textColorHint="#81D4FA"
+    android:layout_marginBottom="8dp"
+    android:inputType="text" />
+
+    <!-- Search Button -->
+<Button
+android:id="@+id/searchButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:backgroundTint="#0288D1"
+    android:text="Search"
+    android:textColor="#FFFFFF"
+    android:padding="10dp"
+    android:layout_gravity="end"
+    android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView for Items -->
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/itemsRecyclerView"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#BBDEFB"
+    android:scrollbars="vertical" />
+
+    </LinearLayout>

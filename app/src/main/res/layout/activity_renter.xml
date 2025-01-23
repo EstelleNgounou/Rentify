@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    tools:context=".RenterActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renter's Dashboard"
+        android:textSize="26sp"
+        android:textColor="#0277BD"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- View My Requests Button -->
+    <Button
+        android:id="@+id/requestButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View My Requests"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="65dp"
+        android:layout_marginHorizontal="16dp"
+        android:paddingVertical="14dp"
+        android:elevation="4dp"/>
+
+    <!-- View All Items Button -->
+    <Button
+        android:id="@+id/viewAllItemsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View All Items"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@+id/requestButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:paddingVertical="14dp"
+        android:elevation="4dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E1F5FE"
+    android:gravity="center_vertical">
+
+    <!-- Item Image -->
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/placeholder"
+        android:contentDescription="Item Image"
+        android:scaleType="centerCrop"/>
+
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="20sp"
+        android:textColor="#0288D1"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Item Description -->
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Description: "
+        android:textColor="#0288D1"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Item Fee -->
+    <TextView
+        android:id="@+id/itemFee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fee: "
+        android:textSize="16sp"
+        android:textColor="#0288D1"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Item Category -->
+    <TextView
+        android:id="@+id/itemCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textSize="16sp"
+        android:textColor="#0288D1"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Custom Message EditText -->
+    <EditText
+        android:id="@+id/customMessage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Message (Optional)"
+        android:inputType="textMultiLine"
+        android:textColor="#0288D1"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Send Request Button -->
+    <Button
+        android:id="@+id/sendRequestButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Send Request"
+        android:background="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="10dp"/>
+
+</LinearLayout>
